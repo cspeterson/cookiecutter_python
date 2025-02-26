@@ -1,0 +1,10 @@
+*.egg-info/
+*.swo
+*.swp
+*pyc
+*p?~
+docs_output/
+__pycache__/
+.mypy_cache/
+.pytest_cache
+venv/
