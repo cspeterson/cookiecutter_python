@@ -3,8 +3,12 @@
 *.swp
 *pyc
 *p?~
-docs_output/
 __pycache__/
 .mypy_cache/
 .pytest_cache
+build*/
+/release
+/release.meta
+dist/
+dist*/
 venv/
