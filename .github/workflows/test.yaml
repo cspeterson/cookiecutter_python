@@ -3,7 +3,7 @@ name: CI Deployment
 
 on:  # yamllint disable-line rule:truthy
   push:
-    tags-ignore: ['*']
+    tags-ignore: ['v*']
   workflow_dispatch:
 
 permissions:
